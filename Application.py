@@ -24,10 +24,18 @@ appLabel.setStyleSheet("QLabel {margin-left: 100% auto; margin-right: 100% auto;
 appLabel_font = QFont("Poppins", 12)
 appLabel.setFont(appLabel_font)
 
+appLabel = QLabel(parent=window)
+appLabel.setText("Ajouter le lien de téléchargement")
+appLabel.setStyleSheet("QLabel {margin-left: 100% auto; margin-right: 100% auto; padding-top: 50px; }")
+appLabel_font = QFont("Poppins", 12)
+appLabel.setFont(appLabel_font)
 
-findLabel = QLabel("Find &What:", parent=window   )
+
+
 #lineEdit = QLineEdit()
 #findLabel.setBuddy(lineEdit)
+
+
 #buttons
  
        
